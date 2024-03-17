@@ -1,10 +1,10 @@
-# MovieLens Data Analysis Project
+# MovieLens Big Data Analysis 
 
 ## Overview
-This project leverages a real-life dataset obtained from MovieLens to perform comprehensive data analysis through MapReduce, a programming model that allows for massive scalability across hundreds or thousands of servers in a Hadoop cluster. The aim is to extract insightful information from a large volume of movie ratings data using Python.
+This Tasl leverages a real-life dataset obtained from MovieLens to perform comprehensive data analysis through MapReduce, a programming model that allows for massive scalability across hundreds or thousands of servers in a Hadoop cluster. The aim is to extract insightful information from a large volume of movie ratings data using Python.
 
 ## Objectives
-The project is structured around two main objectives:
+The Task is structured around two main objectives:
 
 ### 1. Rank Movie by Count (`RankMovieCount.py`)
 The `RankMovieCount.py` script employs MapReduce to process and analyze movie ratings data. It extracts each movie and the total number of ratings it has received. The output is sorted from the least to the most number of ratings, displaying the movie ID for reference. This functionality helps in understanding the popularity of movies based on the volume of ratings.
